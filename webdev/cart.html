@@ -1,13 +1,16 @@
 <html>
     <head>
         <title>Knitted Pearls</title>
+        <link rel="stylesheet" type="text/css" href="style.css">    
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Magra&display=swap" rel="stylesheet">
     </head>
     <body>
         
         <div>
             <!--Header-->
             <div>
-                <div><img src="images/logo.png"></div>
+                <div><img class="logo" src="images/logo.png"></div>
                 <!--Menu-->
                 <div>
                     <ul>
@@ -16,7 +19,7 @@
                         <li><a href="review.html">review</a></li>
                     </ul>
                 </div>
-                <div><a href="cart.html"><img src="images/cart.png"></a></div>
+                <div><a href="cart.html"><img class="cart" src="images/cart.png"></a></div>
             </div>
             <!--Body-->
             <h1>Shopping Cart</h1>
@@ -24,7 +27,7 @@
             <!--List-->
             <div>
                 <table border="1">
-                    <thead>
+                    <thead class="cname">
                         <th>Product</th>
                         <th>Quantity</th>
                         <th>Price</th>
@@ -33,27 +36,27 @@
                     <tbody>
                       <tr>
                          <td><img src="images/1p.jpg" width="200px"> </td>
-                         <td><input type="button" value="+"> 1 <input type="button" value="+"></td>
+                         <td><input class="button1" type="button" value="+"> 1 <input class="button1" type="button" value="-"></td>
                          <td>Rs.XXX</td>
                          <td>Rs.XXX</td>
                      </tr>   
                      <tr>
                         <td><img src="images/5p.jpg" width="200px"> </td>
-                        <td><input type="button" value="+"> 1 <input type="button" value="+"></td>
+                        <td><input class="button1" type="button" value="+"> 1 <input class="button1" type="button" value="-"></td>
                         <td>Rs.XXX</td>
                         <td>Rs.XXX</td>
                     </tr> 
                     </tbody>
                 </table>
            </div>
-           <div>
-                <p>Total:RsXXX</p><br>
-                <div><a href="checkout.html"><input type="button" value="CHECKOUT" > </a></div>
+           <div >
+                <p class="total">Total:RsXXX</p><br>
+                <div ><a href="checkout.html"> <input class="checkout" type="button" value="CHECKOUT"> </a></div>
             </div>
             <!--Footer-->
-            <div>
-                <img src="images/design.png">
-                  <img src="images/insta.png">@knitted_pearls
+            <div class="purple_text">
+                <img class="design" src="images/design.png">
+                <img class="insta" src="images/insta.png">@knitted_pearls
             </div>
         </div>
     </body>

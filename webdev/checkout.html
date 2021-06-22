@@ -1,16 +1,22 @@
 <html>
     <head>
         <title>Knitted Pealrs</title>
+        <link rel="stylesheet" type="text/css" href="style.css">    
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Magra&display=swap" rel="stylesheet">
     </head>
     <body>
         <div>
             <div><h1>Shipping Information</h1></div>
-            <div><p>Address:<br><input type="text"></p> </div><br>
-            <div><p>City:<br><input type="text"></p></div><br>
-            <div><p>Pincode:<br><input type="text"></p></div><br>
-            <div><p>State:<br><input type="text"></p></div><br>           
+            <div class="checkout_info">
+                <p>Address:<br><textarea class="text_box" name="paragraph_text" cols="50" rows="10"></textarea></p>
+                <p>City:<br><input  class="text_box2" type="text"></p>
+                <p>Pincode:<br><input class="text_box2" type="text"></p>
+                <p>State:<br><input class="text_box2" type="text"></p>
+            </div>        
+          
             <div>
-                <div><a href="#"><input type="button" value="PAY" > </a></div>
+                <div><a href="#"><input class="checkout" type="button" value="PAY" > </a></div>
             </div>      
         </div>
     </body>

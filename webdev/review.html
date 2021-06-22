@@ -1,12 +1,16 @@
 <html>
     <head>
         <title>Knitted Pearls</title>
+        <link rel="stylesheet" type="text/css" href="style.css">    
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Magra&display=swap" rel="stylesheet">
     </head>
     <body>
         <div>
             <!--Header-->
             <div>
-                <div><img src="images/logo.png"></div>
+                
+                <div><img class="logo" src="images/logo.png"></div>
                 <!--Menu-->
                 <div>
                     <ul>
@@ -15,37 +19,39 @@
                         <li><a href="review.html">review</a></li>
                     </ul>
                 </div>
-                <div><a href="cart.html"><img src="images/cart.png"></a></div>
+                <div><a href="cart.html"><img class="cart" src="images/cart.png"></a></div>
             </div>
             <!--Body-->
-            <div>
-                 <div>Add Review:<br><input type=text></div>
+            <div class="reviews">
+                 <div>Add Review:<br><textarea class="text_box" name="paragraph_text" cols="50" rows="10"></textarea></div>
+                 <input class="button1" type="button" value="ADD">
                  <br>
                  <div>Person1 on 00/00/0000
-                     <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque optio accusamus, omnis non 
+                     <div class="text_container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque optio accusamus, omnis non 
                          deserunt doloribus aliquam nemo sint, laudantium est quis delectus dolore sit? Error exercitationem 
                          quod architecto eos. Sequi.
                       </div>
                  </div>
-                 <br>
+                 <hr>
                  <div>Person2 on 00/00/0000
-                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque optio accusamus, omnis non 
+                    <div class="text_container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque optio accusamus, omnis non 
                         deserunt doloribus aliquam nemo sint, laudantium est quis delectus dolore sit? Error exercitationem 
                         quod architecto eos. Sequi.
                      </div>
                 </div>
-                <br>
+                <hr>
                 <div>Person3 on 00/00/0000
-                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque optio accusamus, omnis non 
+                    <div class="text_container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque optio accusamus, omnis non 
                         deserunt doloribus aliquam nemo sint, laudantium est quis delectus dolore sit? Error exercitationem 
                         quod architecto eos. Sequi.
                      </div>
                 </div>
+                <hr>
             </div>
             <!--Footer-->
-            <div>
-                <img src="images/design.png">
-                  <img src="images/insta.png">@knitted_pearls
+            <div class="purple_text">
+                <img class="design" src="images/design.png">
+                <img class="insta" src="images/insta.png">@knitted_pearls
             </div>
         </div>
     </body>

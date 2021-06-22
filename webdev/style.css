@@ -1,0 +1,178 @@
+*{
+    font-family: Magra;
+    margin: 0;
+    padding:0;
+}
+.logo{
+    width:100px;
+    height:65px;
+    position:absolute;
+    margin-top:0pz;
+}
+.design{
+    width:150px;
+    height:150px    
+}
+.insta{
+    width:10px;
+    margin-left: 45%;
+    margin-bottom: none;
+}
+.button2{
+    border-style: solid;
+    border-color:rgb(82, 37, 88);
+    border-width: 1px;
+    border-radius: 3px;
+    text-align: center;
+}
+.box{
+    background-color:rgb(214, 157, 223);
+    color:white;
+    padding: 10%;
+    margin:10%;
+    text-align: center;
+    font-size: 1.2em;
+}
+a{
+    color:rgb(214, 157, 223);
+    margin: 20%;
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    b
+}
+a:hover{
+    color:rgb(179, 124, 230);
+    
+}
+
+h5{
+    margin: 1%;
+    font-size: 1em;
+}
+.purple_text{
+    color: rgb(142, 87, 150);
+    font-size: 12px;
+}
+.box1{
+    background-color:rgb(214, 157, 223);
+    color:white;
+  
+    text-align: left;
+    line-height: 2em;
+}
+.button1{
+    padding: 5px 10px;
+    background-color:white;
+    border-radius: 4px;
+    margin: 5px;
+}
+/*home*/
+.cart{
+    width: 40px;
+    margin-left: 70%;
+    margin-top: 0%;
+}
+ul{
+    list-style-type: none;
+    margin-left:30%;
+}
+li{
+    float:left;
+    margin-left:5%;
+    margin-right:0%;
+    margin-top:20px;
+}
+
+h1{
+   
+    text-align: center;
+    margin-bottom: 10%;
+}
+.text_container{
+    color: rgb(95, 93, 93);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    
+}
+
+hr{
+   margin-bottom: 5%;
+    border:25% double  rgb(142, 87, 150) ;
+
+}
+.header{
+    align-content: space-between;
+}
+/*products*/
+.prod{
+    color: rgb(95, 93, 93);
+    border-style:solid;
+    border-color: black;
+    border-width: 2px;
+    margin: 5px;
+    text-align: center;
+}
+.prod_img{
+    border:3px solid black;
+    margin-top: 1%;
+}
+/*review*/
+.reviews{
+    font-size: 1em;
+    margin-left: 10px;
+}
+.text_box{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    margin-left: 10px;
+}
+/*cart*/
+table {
+    border-collapse: collapse;
+    margin-left: 10%;
+    width: 100%;
+    text-align: center;
+  }
+.total{
+    text-align:right;
+    margin: 20px;
+    
+}
+.checkout{
+    margin-left: 50%;
+    padding: 5px 10px;
+    background-color:white;
+    border-radius: 4px;
+    color: rgb(142, 87, 150) ;
+}
+/*checkout*/
+.checkout_info{
+    margin: 10%;
+    line-height: 3em;
+}
+.text_box2{
+    width: 100%;
+    height: 30px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    margin-left: 10px;
+}
+.pay{
+    margin-left: 50% ;
+    padding: 5px 10px;
+    background-color:white;
+    border-radius: 4px;
+    color: rgb(142, 87, 150) ;
+}
+}
